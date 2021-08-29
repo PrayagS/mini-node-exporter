@@ -98,4 +98,5 @@ As a result, I implemented the `Describe` and `Collect` methods for two collecto
 - [Getting started with Grafana and Prometheus](https://grafana.com/docs/grafana/latest/getting-started/getting-started-prometheus/)
 - [Best practices for creating dashboards](https://grafana.com/docs/grafana/latest/best-practices/best-practices-for-creating-dashboards/)
 - [node_exporter/collector.go at master · prometheus/node_exporter](https://github.com/prometheus/node_exporter/blob/master/collector/collector.go)
+- [Writing exporters | Prometheus](https://prometheus.io/docs/instrumenting/writing_exporters)
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
