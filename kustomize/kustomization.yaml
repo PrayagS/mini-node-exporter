@@ -1,0 +1,19 @@
+namespace: foo
+
+resources:
+- namespace.yaml
+- mini-node-exporter/deploy.yaml
+- prometheus/deploy.yaml
+- grafana/deploy.yaml
+
+configMapGenerator:
+- name: prometheus-configuration
+  files:
+  - prometheus/prometheus.yml
+- name: grafana-datasource
+  files:
+  - grafana/datasource.yaml
+- name: grafana-dashboard
+  files:
+  - grafana/dashboard.yaml
+  - grafana/mini-node-exporter-dashboard.json
