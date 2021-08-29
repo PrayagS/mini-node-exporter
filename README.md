@@ -67,7 +67,7 @@ The exposed metrics can be easily queried from the Prometheus dashboard.
 
 The Grafana dashboard is named as `mini-node-exporter-dashboard`. It looks as follows,
 
-#TODO
+![](img/grafana-dashboard.png)
 
 The system uptime is shown as a `Stat` value and also as a time series graph. The system load is also shown as a time series graph alongwith color-coded gauges.
 
